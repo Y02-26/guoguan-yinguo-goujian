@@ -1,6 +1,6 @@
 ---
 name: guoguan-yinguo-goujian
-description: Construct causal explanations for international relations research according to Chapter 5 "构建因果解释" of 《国际关系研究实用方法》. Use when the user needs to clarify causal relations, distinguish variables, draw causal diagrams, build counterfactuals or causal mechanisms, formulate causal hypotheses, or revise hypotheses after empirical anomalies. Keep outputs faithful to the chapter, topic-sensitive, and non-template-driven.
+description: Construct causal explanations for international relations research according to Chapter 5 "构建因果解释" of 《国际关系研究实用方法》, with enhanced guidance for distinguishing mediating variables, moderating variables, and domestic variables in IR theory. Use when the user needs to clarify causal relations, distinguish variables, draw causal diagrams, build counterfactuals or causal mechanisms, formulate causal hypotheses, or revise hypotheses after empirical anomalies. Keep outputs faithful to the chapter, topic-sensitive, and non-template-driven.
 ---
 
 # 国关因果构建
@@ -25,6 +25,18 @@ Before drafting a mechanism, first identify the topic's specific features:
 
 Use templates only as a final checklist or formatting aid. Do not let a template determine the substance of the mechanism.
 
+## Variable-Role Gate
+
+Before calling a domestic factor, actor perception, policy process, institution, party preference, public opinion, state-society relation, or alliance reliability a “mediating variable”, check whether it truly transmits the effect of the independent variable to the dependent variable.
+
+Apply the Feng Wei 2024 distinction:
+
+- **Mediating variable**: is directly affected by the independent variable and then directly affects the dependent variable. It answers “how does X pass through this factor to produce Y?”
+- **Moderating variable**: changes the strength, direction, timing, or condition of the X-Y relation. It does not need to be directly caused by X. It answers “when, under what condition, or in which direction does X affect Y?”
+- **Domestic variable**: is not automatically a mediating variable. It may be a mediator, moderator, independent variable, background condition, or omitted factor depending on the causal diagram.
+
+If the user asks about neoclassical realism, domestic politics, foreign policy analysis, leader perception, policy-making process, policy implementation process, party preference, state-society relation, domestic institution, or alliance reliability, read `references/mediator-vs-moderator.md` before constructing the mechanism.
+
 ## Chapter-Based Workflow
 
 Follow the chapter's logic:
@@ -43,6 +55,7 @@ Read only the needed reference:
 - `references/knowledge-map.md`: Chapter map, OCR caveats, and what each reference covers.
 - `references/causal-relations.md`: Regularity, counterfactual, mechanism, effects-of-causes, causes-of-effects.
 - `references/variables-and-causal-diagrams.md`: Variables, mediators, confounders, colliders, causal diagrams.
+- `references/mediator-vs-moderator.md`: Feng Wei 2024-based guide for distinguishing mediating variables, moderating variables, and domestic variables, especially in neoclassical realist foreign-policy analysis.
 - `references/explanation-principles.md`: Temporal order, association, false/spurious correlation, counterfactuals, mechanisms.
 - `references/counterfactuals-and-mechanisms.md`: How the chapter treats counterfactual construction and causal mechanism tracing.
 - `references/causal-hypotheses.md`: Meaning, requirements, induction, deduction, abduction, and causal-hypothesis formulation.

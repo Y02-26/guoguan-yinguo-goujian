@@ -41,6 +41,31 @@ A mediating variable lies between the independent and dependent variables. It ex
 X -> M -> Y
 ```
 
+Use a strict test:
+
+- X must directly affect M.
+- M must directly affect Y.
+- M explains how X's effect is transmitted.
+
+Do not call a variable a mediator merely because it is “between” the international system and foreign policy in a loose narrative.
+
+## Moderating Variable
+
+A moderating variable changes the strength, direction, timing, or condition of the relationship between X and Y.
+
+```text
+Z changes how X affects Y
+```
+
+Unlike a mediating variable, a moderating variable does not need to be directly caused by X. It answers:
+
+- When does X matter more or less?
+- Under what condition does X produce Y?
+- Does Z change the direction of X's effect?
+- Does Z explain why similar X leads to different Y?
+
+If the case involves domestic variables in foreign-policy analysis, read `mediator-vs-moderator.md` before finalizing the causal diagram.
+
 ## Confounding Variable
 
 A confounding variable affects both the supposed cause and the outcome. It may create a misleading relation between X and Y.
@@ -93,3 +118,14 @@ flowchart LR
 | Indicator | Observable measure | Mistaking indicator for the concept itself |
 | Mechanism | Process linking cause and outcome | Treating any intermediate variable as a full mechanism |
 | Causal diagram | Assumption map | Treating the diagram as evidence |
+
+## Domestic Variable Warning
+
+Domestic variables are not automatically mediating variables. A domestic factor can be:
+
+- a mediator, if systemic pressure directly changes it and it transmits that pressure to policy;
+- a moderator, if it conditions how systemic pressure affects policy;
+- an independent variable, if it directly explains the outcome while systemic factors are only background;
+- a confounder or omitted factor, if it shapes both the supposed cause and the outcome.
+
+Always locate the domestic variable in the causal diagram before naming its role.

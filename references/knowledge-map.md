@@ -23,6 +23,7 @@ The PDF text layer contains OCR and encoding errors. Treat this knowledge base a
 
 - Need “什么是因果关系”: read `causal-relations.md`.
 - Need variables, mediators, confounders, colliders, or DAGs: read `variables-and-causal-diagrams.md`.
+- Need to decide whether a domestic factor is a mediator or moderator: read `mediator-vs-moderator.md`.
 - Need principles of causal explanation: read `explanation-principles.md`.
 - Need counterfactual or mechanism construction: read `counterfactuals-and-mechanisms.md`.
 - Need causal hypotheses: read `causal-hypotheses.md`.
@@ -48,3 +49,4 @@ Do not replace this with a generic thesis-writing workflow.
 - The chapter uses and discusses “限界条件 / scope condition” in the hypothesis-revision context. Do not present the letter `S` as a source term.
 - The chapter emphasizes excluding false/spurious correlations and checking other possible causal factors. Do not present “竞争性解释 R” as a source term unless the user explicitly wants broader research-design vocabulary.
 - “过程追踪” and “比较过程追踪” are useful where the chapter discusses causal mechanisms and case methods, but they should serve causal explanation rather than become a separate skill focus.
+- Feng Wei (2024) is used as a targeted supplement to Chapter 5's variable discussion. Use it to prevent mediator/moderator confusion, not to turn this skill into a full neoclassical realism skill.

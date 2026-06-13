@@ -1,6 +1,6 @@
 interface:
   display_name: "国关因果构建skill"
-  short_description: "构建国际关系研究中的因果解释、机制、假设与检验路径。"
+  short_description: "构建国际关系研究中的因果解释、机制、假设与变量辨析。"
   default_prompt: "Use $guoguan-yinguo-goujian to build a rigorous causal explanation for my international relations research topic."
 
 policy:

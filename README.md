@@ -36,7 +36,8 @@
 | 任务 | 它会怎么帮你 |
 |---|---|
 | 构建因果解释 | 根据你的具体选题，识别原因、结果、机制和适用范围 |
-| 拆分变量关系 | 区分自变量、因变量、中介变量、混杂变量、碰撞变量 |
+| 拆分变量关系 | 区分自变量、因变量、中介变量、调节变量、混杂变量、碰撞变量 |
+| 识别国内变量角色 | 判断国内变量是中介、调节、独立原因，还是只是背景条件 |
 | 生成因果机制 | 先识别选题特殊性，再构建机制，避免机械套模板 |
 | 检查因果假设 | 看假设是否明确、具体、可检验、非同义反复 |
 | 修正研究假设 | 当经验事实不支持假设时，检查测量、限界条件和机制问题 |
@@ -176,6 +177,7 @@ X 是国际组织指标排名，Y 是国家政策改革。
 |---|---|---|
 | 因果关系 | 规律性、反事实、机制性因果分别强调什么？ | [causal-relations.md](./references/causal-relations.md) |
 | 变量与因果图 | 自变量、因变量、中介变量、混杂变量、碰撞变量如何区分？ | [variables-and-causal-diagrams.md](./references/variables-and-causal-diagrams.md) |
+| 中介/调节辨析 | 国内变量什么时候是中介变量，什么时候是调节变量？ | [mediator-vs-moderator.md](./references/mediator-vs-moderator.md) |
 | 构建原则 | 时序性、相关性、排除虚假相关/伪相关，以及反事实或机制原则 | [explanation-principles.md](./references/explanation-principles.md) |
 | 反事实与机制 | 如何用反事实和因果机制加强因果推断？ | [counterfactuals-and-mechanisms.md](./references/counterfactuals-and-mechanisms.md) |
 | 因果假设 | 因果解释如何转化为可检验的因果假设？ | [causal-hypotheses.md](./references/causal-hypotheses.md) |
@@ -241,5 +243,7 @@ git pull
 ## 来源与说明
 
 本知识库根据用户提供的《国际关系研究实用方法》第五章 PDF 片段整理。由于该 PDF 的文本层存在 OCR 与编码噪声，本仓库采用“忠于章节结构和概念”的改写方式，不提供逐字转录。
+
+在第五章框架之上，本版补充吸收冯伟（2024）《不是所有的国内变量都是中介变量——新古典现实主义理论的中介变量与调节变量辨析》的核心辨析，用来加强“中介变量、调节变量、国内变量角色”的识别。该补充只服务于因果解释中的变量判断，不把本 skill 扩展成新古典现实主义专门 skill。
 
 如需精确页码、原文引用或正式引文，请回到原书核对。

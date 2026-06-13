@@ -35,13 +35,24 @@ Do not fill the same mechanism chain for different topics. If two topics produce
 
 ## Variable Table
 
-| Role | Variable | Meaning in this research | How it varies in this topic |
-|---|---|---|---|
-| Dependent variable | | | |
-| Independent variable | | | |
-| Mediating variable | | | |
-| Confounding variable | | | |
-| Collider / selection condition | | | |
+| Role | Variable | Meaning in this research | How it varies in this topic | Role test |
+|---|---|---|---|---|
+| Dependent variable | | | | What outcome is explained? |
+| Independent variable | | | | What cause changes first? |
+| Mediating variable | | | | Does X directly affect it, and does it transmit X's effect to Y? |
+| Moderating variable | | | | Does it change the strength, direction, timing, or condition of X -> Y? |
+| Confounding variable | | | | Could it affect both X and Y? |
+| Collider / selection condition | | | | Is it a common effect or selection filter? |
+
+## Mediator-Moderator Sorting Table
+
+Use this when the user mentions domestic variables or when a proposed mechanism contains several third variables.
+
+| Candidate variable | Does X directly affect it? | Does it directly affect Y? | Does it condition X -> Y? | Best role | Why |
+|---|---|---|---|---|---|
+| | yes/no/unclear | yes/no/unclear | yes/no/unclear | mediator / moderator / independent variable / confounder | |
+
+Do not proceed to a mechanism chain until the variable roles are clear enough.
 
 ## Causal Diagram
 
@@ -73,11 +84,12 @@ Use this only as a skeleton. Replace each line with the topic's concrete actors,
 
 ```text
 1. Topic-specific cause appears or changes:
-2. Which actor/entity is affected:
-3. What changes in belief/incentive/capability/information/legitimacy/constraint:
-4. What activity or behavior changes:
-5. What intermediate process follows:
-6. How the outcome is produced:
+2. Which mediator is directly affected by this cause, if any:
+3. Which moderator changes the condition/strength/direction of the cause's effect, if any:
+4. What changes in belief/incentive/capability/information/legitimacy/constraint:
+5. What activity or behavior changes:
+6. What intermediate process follows:
+7. How the outcome is produced:
 ```
 
 ## Causal Hypothesis Template
@@ -98,5 +110,7 @@ Use this only as a skeleton. Replace each line with the topic's concrete actors,
 - Counterfactual statement is plausible, or mechanism is traceable.
 - Mechanism is more than a chronology.
 - Mechanism is specific to this topic's actors, context, and process.
+- Mediators and moderators are not confused.
+- Domestic variables are not automatically treated as mediators.
 - Hypothesis is clear, specific, testable, and non-tautological.
 - Applicable range or limit condition is stated when needed.
