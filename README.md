@@ -2,7 +2,7 @@
 
 # 国关因果构建 Skill
 
-忠于《国际关系研究实用方法》第五章“构建因果解释”的 Codex skill  
+构建因果解释的 Codex skill  
 帮助你把一个国关研究选题整理成清楚、具体、非模板化的因果解释
 
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-2563eb)](./SKILL.md)
