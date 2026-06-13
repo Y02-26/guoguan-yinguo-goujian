@@ -1,6 +1,6 @@
 ---
 name: guoguan-yinguo-goujian
-description: Build rigorous causal explanations for international relations and political science research. Use when the user needs to construct, critique, revise, or operationalize a causal argument, causal mechanism, causal diagram, research hypothesis, scope condition, rival explanation, counterfactual, process-tracing design, case-comparison strategy, or empirical anomaly response for IR research, thesis proposals, papers, literature-based theory building, or research-method training.
+description: Build causal explanations for international relations and political science research. Use when the user needs to clarify a causal relation, identify causes and outcomes, build a causal mechanism, state the explanation's applicable range, turn the explanation into a research hypothesis, or revise an explanation when empirical facts do not fit.
 ---
 
 # 国关因果构建
@@ -15,11 +15,11 @@ Move from idea to research design in this order:
 
 1. Define the phenomenon to be explained: outcome Y, unit, time, space, variation, and puzzle.
 2. Clarify the causal relation: regularity, counterfactual dependence, mechanism, or a combination.
-3. Map variables: X, Y, mediator, moderator/scope condition, confounder, collider, and rival causes.
-4. Build the explanation: why X affects Y, through which mechanism, under what conditions, compared with what alternatives.
+3. Map the basic elements: cause, outcome, mediator, possible confounder, and applicable range.
+4. Build the explanation: why the cause affects the outcome, through which mechanism, and under what conditions.
 5. Translate the explanation into hypotheses and observable implications.
-6. Choose causal-inference support: counterfactual reasoning, case comparison, process tracing, congruence analysis, or mixed qualitative/quantitative logic.
-7. Revise the hypothesis when evidence fails: check measurement, case scope, omitted variables, mechanism gaps, and boundary conditions.
+6. Support the explanation with counterfactual reasoning and/or causal-mechanism tracing when appropriate.
+7. Revise the hypothesis when evidence fails: check measurement, applicable range, omitted variables, and mechanism gaps.
 
 ## Reference Selection
 
@@ -37,17 +37,17 @@ Load only the needed reference:
 
 Prefer producing a concrete artifact rather than general advice. Common outputs:
 
-- Causal design table: puzzle, question, Y, X, mechanism, scope, rival explanations, evidence, method.
+- Causal design table: puzzle, question, outcome, cause, mechanism, applicable range, evidence, and main inference risk.
 - Causal diagram in Mermaid or text.
 - Mechanism chain with observable traces.
-- Hypothesis set: main hypothesis, mechanism hypotheses, scope hypotheses, rival hypotheses.
+- Hypothesis set: main hypothesis, mechanism hypotheses, and applicable-range statements.
 - Counterfactual and case-comparison plan.
 - Process-tracing evidence table.
 - Revision memo for a weak or failed causal argument.
 
 ## Guardrails
 
-- Do not treat “X affects Y” as a complete explanation. Require mechanism, scope, and rival explanations.
+- Do not treat “X affects Y” as a complete explanation. Require temporal order, association, mechanism, and applicable range.
 - Do not invent real citations or literature. If literature is needed, ask for sources or use a separate search workflow when explicitly requested.
 - Distinguish concept, variable, indicator, hypothesis, mechanism, and evidence.
 - Warn when the claim exceeds the evidence or when case selection creates selection bias.
