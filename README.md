@@ -2,169 +2,81 @@
 
 # 国关因果构建 Skill
 
-面向国际关系与政治学研究的因果解释构建知识库  
-从研究困惑到变量、机制、假设、反事实与过程追踪
+忠于《国际关系研究实用方法》第五章“构建因果解释”的 Codex skill  
+聚焦因果关系、变量、因果图、反事实、因果机制、因果假设与假设修正
 
 [![Skill](https://img.shields.io/badge/Codex-Skill-2563eb)](./SKILL.md)
+[![Chapter](https://img.shields.io/badge/Chapter-构建因果解释-047857)](#)
 [![Language](https://img.shields.io/badge/Language-中文研究写作-b91c1c)](#)
-[![Method](https://img.shields.io/badge/Method-Causal%20Explanation-047857)](#)
-[![License](https://img.shields.io/badge/Use-Research%20Assistant-6d28d9)](#)
 
 </div>
 
 ---
 
-## 这是什么
+## 定位
 
-**国关因果构建 Skill** 是一个为科研写作和研究设计准备的 Codex skill。它把《国际关系研究实用方法》中“构建因果解释”相关内容整理成可复用的知识库，帮助你把一个模糊的研究兴趣推进为可以检验、可以写进论文的因果解释。
+这个仓库不是一个泛化的“研究设计大全”，而是一个围绕第五章 **“构建因果解释”** 建成的知识库。它的目标是帮助你在国际关系研究中把因果解释说清楚：
 
-它尤其适合处理这些问题：
-
-- 我的研究问题到底要解释什么现象？
-- 自变量、因变量、中介变量、调节条件、混杂变量怎么区分？
-- 如何从“X 影响 Y”推进到真正的因果机制？
-- 怎样提出主假设、机制假设、范围条件假设和竞争假设？
-- 案例研究中如何构造反事实、做过程追踪和比较案例？
-- 当经验事实不支持假设时，如何修改而不是硬凑？
+- 什么是因果关系？
+- 原因、结果和变量如何界定？
+- 如何用因果图表达变量关系？
+- 构建因果解释需要满足哪些原则？
+- 如何构建反事实？
+- 如何追踪因果机制？
+- 如何提出因果假设？
+- 遇到经验反常时如何修改因果假设？
 
 ---
 
-## 核心用途
+## 第五章知识结构
 
-这个 skill 的重点很集中：**帮助你构建一个完整、清楚、可被检验的因果解释**。它不替代完整的方法论训练，也不包办案例研究、统计检验或文献检索；它主要服务于理论框架中最关键的那一步：把“某因素可能有影响”推进为“为什么、如何、在什么条件下产生影响”。
-
-| 环节 | 它帮助你明确什么 | 常见产出 |
+| 模块 | 第五章中的核心问题 | 知识库文件 |
 |---|---|---|
-| 因果问题定位 | 要解释的结果 Y 是什么，研究困惑在哪里 | 研究问题与因变量表述 |
-| 因果要素拆分 | 原因、结果、因果机制、适用范围 | 因果解释框架 |
-| 机制链条搭建 | X 如何一步步生成 Y，而不是只停留在相关性 | 分步骤机制链 |
-| 假设表达 | 如何把解释写成可讨论、可检验的命题 | 主假设与机制假设 |
-| 解释完整性检查 | 是否缺少时序、相关性、机制或适用范围 | 修改建议与检查清单 |
+| 因果关系 | 规律性、反事实、机制性因果分别强调什么？ | [causal-relations.md](./references/causal-relations.md) |
+| 变量与因果图 | 自变量、因变量、中介变量、混杂变量、碰撞变量如何区分？ | [variables-and-causal-diagrams.md](./references/variables-and-causal-diagrams.md) |
+| 构建原则 | 时序性、相关性、排除虚假相关/伪相关，以及反事实或机制原则 | [explanation-principles.md](./references/explanation-principles.md) |
+| 反事实与机制 | 如何用反事实和因果机制加强因果推断？ | [counterfactuals-and-mechanisms.md](./references/counterfactuals-and-mechanisms.md) |
+| 因果假设 | 因果解释如何转化为可检验的因果假设？ | [causal-hypotheses.md](./references/causal-hypotheses.md) |
+| 假设修正 | 经验事实不支持假设时如何处理？ | [hypothesis-revision.md](./references/hypothesis-revision.md) |
+| 章节例子 | 第五章中可辨认的例子与方法表如何辅助理解？ | [chapter-examples.md](./references/chapter-examples.md) |
+| 模板 | 如何把上述内容快速变成可用输出？ | [templates.md](./references/templates.md) |
 
 ---
 
-## 知识库结构
+## 适合怎么用
+
+示例：
 
 ```text
-guoguan-yinguo-goujian/
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── knowledge-map.md
-    ├── causal-relations-and-variables.md
-    ├── building-causal-explanations.md
-    ├── mechanisms-and-hypotheses.md
-    ├── counterfactuals-and-case-methods.md
-    ├── hypothesis-revision.md
-    └── templates-and-checklists.md
-```
-
-### 主要文件
-
-| 文件 | 用途 |
-|---|---|
-| [SKILL.md](./SKILL.md) | Skill 入口，定义触发场景、工作流和知识库导航 |
-| [knowledge-map.md](./references/knowledge-map.md) | 总览章节结构、使用方式和来源说明 |
-| [causal-relations-and-variables.md](./references/causal-relations-and-variables.md) | 因果关系、变量角色和因果图 |
-| [building-causal-explanations.md](./references/building-causal-explanations.md) | 构建因果解释的原则与常见错误 |
-| [mechanisms-and-hypotheses.md](./references/mechanisms-and-hypotheses.md) | 因果机制、假设形式和可观察含义 |
-| [counterfactuals-and-case-methods.md](./references/counterfactuals-and-case-methods.md) | 反事实、案例比较和过程追踪 |
-| [hypothesis-revision.md](./references/hypothesis-revision.md) | 经验异常与假设修正策略 |
-| [templates-and-checklists.md](./references/templates-and-checklists.md) | 研究设计模板、检查表和写作脚手架 |
-
----
-
-## 推荐使用方式
-
-在 Codex 中调用这个 skill 时，可以直接给出你的研究主题、案例或论文设想。例如：
-
-```text
-Use $guoguan-yinguo-goujian 帮我把“东盟国家为何在中美竞争中采取不同对冲策略”构造成一个因果解释。
+Use $guoguan-yinguo-goujian 帮我构建“安全依赖如何影响小国外交选择”的因果解释。
 ```
 
 ```text
-Use $guoguan-yinguo-goujian 检查我的假设：安全依赖越高，小国越倾向于追随大国政策。
+Use $guoguan-yinguo-goujian 检查这个因果假设是否满足第五章对因果假设的要求。
 ```
 
 ```text
-Use $guoguan-yinguo-goujian 为“国际组织指标排名如何影响国家政策改革”设计因果机制和过程追踪证据表。
+Use $guoguan-yinguo-goujian 帮我把“指标排名影响政策改革”拆成原因、结果、机制和可观察含义。
 ```
 
 ---
 
-## 默认研究设计输出
+## 不做什么
 
-这个 skill 会优先把抽象想法整理成下面这种结构：
+为保持忠于第五章，本 skill 不默认承诺：
 
-| 要素 | 需要回答的问题 |
-|---|---|
-| 研究困惑 | 哪个现象、差异、变化或异常需要解释？ |
-| 研究问题 | 为什么、如何、在什么条件下发生？ |
-| 因变量 Y | 要解释的结果是什么？单位、时间、范围是什么？ |
-| 自变量 X | 主要原因是什么？它如何变化？ |
-| 因果机制 M | X 通过哪些步骤生成 Y？ |
-| 适用范围 / 限界条件 | 这个解释在什么条件下成立？ |
-| 其他可能因素 | 是否存在虚假相关、伪相关或其他原因干扰？ |
-| 假设 H | 如何写成可检验命题？ |
-| 可观察含义 O | 如果机制成立，应看到什么证据？ |
-| 检验策略 | 用比较案例、反事实、过程追踪还是混合方法？ |
+- 自动完成文献综述。
+- 自动检索真实文献。
+- 自动设计完整统计模型。
+- 把“竞争性解释 R”“范围条件 S”当作原书术语。
+- 把案例研究、过程追踪、定量检验包装成超出第五章的完整方法论系统。
+
+如果需要这些内容，可以在第五章框架之上另行扩展。
 
 ---
 
-## 使用流程
+## 来源与说明
 
-```mermaid
-flowchart LR
-  A["研究主题"] --> B["明确要解释的结果 Y"]
-  B --> C["提出可能原因 X"]
-  C --> D["说明 X 如何影响 Y"]
-  D --> E["补足机制 M"]
-  E --> F["限定适用范围"]
-  F --> G["检查其他可能因素"]
-  G --> H["写成因果解释"]
-```
+本知识库根据用户提供的《国际关系研究实用方法》第五章 PDF 片段整理。由于该 PDF 的文本层存在 OCR 与编码噪声，本仓库采用“忠于章节结构和概念”的改写方式，不提供逐字转录。
 
-这张图是本 skill 的使用流程整理，不是原书中的原图或原文路线。
-
----
-
-## 适合谁用
-
-- 国际关系、政治学、区域国别研究方向的本科生、硕士生、博士生
-- 正在写开题报告、课程论文、毕业论文或期刊论文的研究者
-- 需要把文献综述转化为理论框架的人
-- 想提升因果推断、案例研究、过程追踪能力的人
-- 需要快速诊断研究设计漏洞的人
-
----
-
-## 来源说明
-
-本知识库基于用户提供的《国际关系研究实用方法》相关 PDF 片段整理，重点吸收“构建因果解释”章节的方法论内容，并将其改写为 Codex 可调用的科研工作流。
-
-注意：
-
-- 这是面向研究辅助的整理和转化，不是原书逐字转录。
-- 原始 PDF 存在 OCR 和编码噪声，精确页码、引文和原文表述请回到原书核对。
-- 本 skill 不会自动生成真实文献引用；如需文献综述，应另行提供文献材料或使用检索工具。
-
----
-
-## 维护建议
-
-后续可以继续扩展：
-
-- 加入具体研究案例库。
-- 增加“国关论文开题报告模板”。
-- 增加“过程追踪证据编码表”。
-- 增加“文献综述到理论框架转换模板”。
-- 按研究方向扩展专题模块：安全研究、国际政治经济学、国际组织、外交政策分析等。
-
----
-
-<div align="center">
-
-把一个“我觉得有关系”的直觉，推进成一个能被检验、能被反驳、也能写进论文的因果解释。
-
-</div>
+如需精确页码、原文引用或正式引文，请回到原书核对。

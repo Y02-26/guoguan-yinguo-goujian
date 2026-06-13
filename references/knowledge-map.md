@@ -1,67 +1,50 @@
 # Knowledge Map
 
-This knowledge base is a paraphrased, research-use synthesis of the chapter on constructing causal explanations from 《国际关系研究实用方法》. It is not a verbatim reproduction. The user-provided PDF had OCR and encoding noise, so exact quotations, page citations, and bibliographic details should be checked against the original PDF/book when needed.
+Use this file first when deciding which chapter-derived reference to load.
 
-## Chapter Purpose
+## Source Scope
 
-The chapter treats causal explanation as the center of scientific international relations research. A causal explanation should not merely name a possible cause; it should clarify what the cause and outcome are, why the cause leads to the outcome, how the causal process operates, what evidence would support it, and how competing explanations are ruled out or compared.
+This skill is built for Chapter 5 “构建因果解释” of 《国际关系研究实用方法》. It should stay focused on causal explanation, not the whole research process.
 
-## Main Structure
+The user-provided PDF segment covers roughly:
 
-1. Clarify causal relations.
-   - Regularity view: causes and outcomes show patterned association.
-   - Counterfactual view: the outcome would differ if the cause were absent or changed.
-   - Mechanism view: causes produce outcomes through a chain of linked entities, activities, and processes.
-   - Effects-of-causes approach: estimate whether and how much X affects Y.
-   - Causes-of-effects approach: explain why a particular Y occurred.
+1. 因果关系的含义。
+2. 变量及变量关系图解。
+3. 构建因果解释的原则。
+4. 构建因果解释的方法：反事实与因果机制。
+5. 建立因果假设。
+6. 修改因果假设。
 
-2. Introduce variables and causal diagrams.
-   - Independent variable, dependent variable, mediator, moderator, confounder, collider, and controls.
-   - Directed causal diagrams help represent causal assumptions, not directly observed facts.
+## OCR Caveat
 
-3. Build causal explanations.
-   - Establish temporal order.
-   - Show association or relevant co-variation.
-   - Exclude rival explanations and systematic measurement error.
-   - Use counterfactuals and/or mechanisms to strengthen causal inference.
+The PDF text layer contains OCR and encoding errors. Treat this knowledge base as a curated paraphrase. Do not claim exact wording or page numbers unless checked against the original PDF/book.
 
-4. Construct causal explanations in case research.
-   - Build plausible counterfactuals.
-   - Trace causal mechanisms.
-   - Use comparison, congruence, and process tracing to evaluate causal claims.
+## Reference Routing
 
-5. Develop causal hypotheses.
-   - Use deduction, induction, and abduction/retroduction.
-   - Translate theoretical ideas into testable hypotheses.
-   - Use mechanisms and scope conditions to avoid vague universal claims.
+- Need “什么是因果关系”: read `causal-relations.md`.
+- Need variables, mediators, confounders, colliders, or DAGs: read `variables-and-causal-diagrams.md`.
+- Need principles of causal explanation: read `explanation-principles.md`.
+- Need counterfactual or mechanism construction: read `counterfactuals-and-mechanisms.md`.
+- Need causal hypotheses: read `causal-hypotheses.md`.
+- Need hypothesis revision after anomalies: read `hypothesis-revision.md`.
+- Need chapter examples or the qualitative-method table: read `chapter-examples.md`.
+- Need practical output scaffolds: read `templates.md`.
 
-6. Revise hypotheses.
-   - Scientific research involves trial, error, and revision.
-   - Empirical anomalies may require better measurement, narrowed scope, added variables, revised mechanisms, or a new explanation.
+## Chapter-Faithful Core
 
-## How To Use The References
+```text
+因果关系含义
+  -> 变量语言与因果图
+  -> 构建因果解释的原则
+  -> 反事实或因果机制
+  -> 因果假设
+  -> 面对经验反常时修改假设
+```
 
-- For definitions and diagrams, load `causal-relations-and-variables.md`.
-- For the “what makes a causal explanation valid?” question, load `building-causal-explanations.md`.
-- For writing mechanisms and hypotheses, load `mechanisms-and-hypotheses.md`.
-- For qualitative causal inference and counterfactuals, load `counterfactuals-and-case-methods.md`.
-- For failed hypotheses or empirical anomalies, load `hypothesis-revision.md`.
-- For direct output scaffolds, load `templates-and-checklists.md`.
+Do not replace this with a generic thesis-writing workflow.
 
-## Default Research Output
+## Terminology Discipline
 
-When the user gives only a topic, produce:
-
-| Element | Draft |
-|---|---|
-| Phenomenon / puzzle | What variation or anomaly needs explaining |
-| Research question | Why/how/under what conditions Y occurs |
-| Outcome Y | Dependent variable, unit, period, cases |
-| Main cause X | Independent variable |
-| Mechanism M | Stepwise process from X to Y |
-| Scope S | Conditions under which the explanation should hold |
-| Rival explanations R | Alternative causes and mechanisms |
-| Hypotheses H | Testable statements |
-| Evidence O | Observable implications and traces |
-| Method | Counterfactual, comparison, process tracing, statistics, or mixed design |
-
+- The chapter uses and discusses “限界条件 / scope condition” in the hypothesis-revision context. Do not present the letter `S` as a source term.
+- The chapter emphasizes excluding false/spurious correlations and checking other possible causal factors. Do not present “竞争性解释 R” as a source term unless the user explicitly wants broader research-design vocabulary.
+- “过程追踪” and “比较过程追踪” are useful where the chapter discusses causal mechanisms and case methods, but they should serve causal explanation rather than become a separate skill focus.

@@ -1,159 +1,93 @@
 # Hypothesis Revision
 
-Use this reference when a causal hypothesis fails, encounters anomalies, or needs refinement.
+Use this reference when empirical facts do not support a causal hypothesis.
 
-## Scientific Revision Logic
+## First Check: Is The Anomaly Real?
 
-Research is an iterative process. A failed or partly failed hypothesis is not simply a mistake; it can reveal measurement problems, omitted mechanisms, scope limits, hidden variables, or a better theoretical path.
+Before modifying the hypothesis, check:
 
-Revise only after checking whether the anomaly is real:
+- Are the empirical facts reliable?
+- Are the concepts measured correctly?
+- Is the coding or classification accurate?
+- Is the case inside the intended research scope?
+- Is the timing consistent with the hypothesized causal order?
+- Is the apparent anomaly caused by measurement error?
 
-1. Did the evidence accurately measure the concepts?
-2. Is the case coded correctly?
-3. Did the timing match the proposed causal order?
-4. Was the hypothesis tested against the right unit and scope?
-5. Was a rival explanation ignored?
-6. Did the mechanism operate but get blocked?
+Do not revise theory just because the first observation is inconvenient.
 
-## Two Main Revision Strategies
+## Empirical Anomaly
 
-### 1. Scope-Limiting Strategy
+An empirical anomaly appears when observed facts do not fit the causal hypothesis.
 
-Use when the hypothesis works in some contexts but not others.
+The chapter treats this as part of scientific inquiry. A wrong or incomplete hypothesis can help researchers refine concepts, measurement, mechanisms, and scope.
 
-Action:
+## Strategy 1: Scope / Limit Condition
 
-- Compare confirming cases and anomalous cases.
-- Identify a systematic difference.
-- Turn that difference into a scope condition.
+When the hypothesis works in some situations but not others, compare the fitting cases and anomalous cases.
 
-Template:
+If the difference is systematic, turn it into a limit condition.
 
-```text
-The original hypothesis overgeneralized. X leads to Y only when S is present. When S is absent, mechanism M is blocked or weakened.
-```
-
-Example logic:
+Pattern:
 
 ```text
-Alliance dependence may produce policy alignment only when the dependent state lacks credible alternative patrons.
+The original hypothesis applies when condition C is present.
+When C is absent, the mechanism does not operate or operates differently.
 ```
 
-### 2. Absorption / Explanation-Expansion Strategy
+The chapter uses “scope condition / 限界条件” in this sense: to clarify the applicable range of a causal hypothesis.
 
-Use when the anomaly can be explained by modifying the causal mechanism or adding a variable.
+Important: do not present the letter `S` as a source term. Use “限界条件” or “适用范围”.
 
-Action:
+## Strategy 2: Modify The Causal Explanation
 
-- Identify what the anomaly reveals.
-- Add a mediator, moderator, or rival cause.
-- Show how the revised mechanism explains both original and anomalous cases.
+When a limit condition is not enough, revise the causal explanation itself.
 
-Template:
+Possible revisions:
+
+- refine the cause;
+- refine the outcome;
+- add a missing mechanism step;
+- identify a blocking condition;
+- change the causal direction;
+- include an omitted variable;
+- distinguish different types of cases.
+
+The goal is not to save the hypothesis at all costs. The goal is to produce a more reasonable causal explanation.
+
+## Avoid Ad Hoc Rescue
+
+Bad revision:
 
 ```text
-The anomaly suggests that X alone is insufficient. X affects Y through M, but M depends on Z. The revised explanation accounts for both the expected and anomalous outcomes.
+Whenever the hypothesis fails, add a new exception without explaining why.
 ```
 
-## What To Revise
-
-### Revise Concepts
-
-Use when abstract concepts are too vague.
-
-Fix:
-
-- Define dimensions.
-- Separate similar concepts.
-- Avoid circular definitions.
-- Identify observable indicators.
-
-### Revise Measurement
-
-Use when empirical evidence does not match the concept.
-
-Fix:
-
-- Improve indicators.
-- Change coding rules.
-- Use multiple sources.
-- Separate presence, intensity, timing, and form.
-
-### Revise Causal Direction
-
-Use when Y may influence X.
-
-Fix:
-
-- Rebuild timeline.
-- Add lagged variables.
-- Treat feedback as a separate mechanism.
-
-### Revise Mechanism
-
-Use when X and Y are related but the process is unclear.
-
-Fix:
-
-- Add missing actors.
-- Specify beliefs, incentives, capabilities, or institutions.
-- Break one large mechanism into smaller steps.
-- Look for observable traces at each step.
-
-### Revise Scope
-
-Use when the claim works only under certain conditions.
-
-Fix:
-
-- Add condition S.
-- Narrow time, region, issue area, regime type, or actor type.
-- State the new boundary explicitly.
-
-### Revise Rival Explanation Strategy
-
-Use when a rival cause explains the evidence better.
-
-Fix:
-
-- Treat the rival as a confounder, moderator, or alternative hypothesis.
-- Design evidence that distinguishes the rival from the main explanation.
-
-## Revision Decision Tree
+Better revision:
 
 ```text
-Does evidence contradict the hypothesis?
-  If no: strengthen observable implications and rival tests.
-  If yes:
-    Is measurement credible?
-      If no: revise operationalization.
-      If yes:
-        Is the case inside the intended scope?
-          If no: narrow scope.
-          If yes:
-            Did the mechanism operate?
-              If no: revise mechanism or add blocking condition.
-              If yes:
-                Did a rival cause override it?
-                  If yes: add rival/moderator.
-                  If no: reconsider X-Y relation.
+Identify a systematic difference between confirming and anomalous cases, then show how that difference changes the mechanism or limits the hypothesis.
 ```
 
-## Revision Memo Template
+## Revision Memo
 
-| Item | Diagnosis | Revision |
-|---|---|---|
-| Original hypothesis | | |
-| Anomalous evidence | | |
-| Measurement check | | |
-| Timing check | | |
-| Mechanism check | | |
-| Rival explanation | | |
-| Scope condition | | |
-| Revised hypothesis | | |
-| New observable implications | | |
+| Item | Question |
+|---|---|
+| Original hypothesis | What did the hypothesis claim? |
+| Empirical anomaly | Which facts do not fit? |
+| Measurement check | Are concepts and indicators valid? |
+| Timing check | Does the causal order still hold? |
+| Mechanism check | Which step failed or changed? |
+| Limit condition | Is the hypothesis only valid under certain conditions? |
+| Revised explanation | What is the improved causal explanation? |
+| Revised hypothesis | How should the hypothesis now be stated? |
 
-## Caution
+## Final Check
 
-Do not rescue a hypothesis by adding endless exceptions. A good revision should increase explanatory power while keeping the theory testable and coherent.
+After revision, make sure the new hypothesis is still:
 
+- clear;
+- testable;
+- non-tautological;
+- linked to variables;
+- linked to a causal mechanism;
+- not merely a pile of exceptions.
